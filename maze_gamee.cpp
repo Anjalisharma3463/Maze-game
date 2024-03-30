@@ -81,6 +81,6 @@ int main() {
     else {
         visited[srcx][srcy] = true;
         printAllPath(maze, row, col, srcx, srcy, output, visited);
-    }
+  }
     return 0;
 }
